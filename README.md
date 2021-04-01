@@ -1,6 +1,6 @@
 # ☑️ WEBPACK 5 BUILD ☑️
 ### 🔸BY COLDXDEV🔸
-##⭐ _The perfect webpack build is ready to use_
+## _⭐The perfect webpack build is ready to use_
 
 ![N|Solid](https://i.ibb.co/CwqsfdN/webpack.png)
 
