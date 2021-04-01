@@ -68,8 +68,8 @@ npm run start
 
 Open terminal and enter this magic commands.
 
-Building development
 
+#### Developing...
 
 To start with dev server:
 
@@ -77,6 +77,7 @@ To start with dev server:
 npm run start
 ```
 
+#### Building development:
 
 ```sh
 npm run dev
