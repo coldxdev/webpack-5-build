@@ -70,14 +70,16 @@ Open terminal and enter this magic commands.
 
 Building development
 
-```sh
-npm run dev
-```
 
 To start with dev server:
 
 ```sh
 npm run start
+```
+
+
+```sh
+npm run dev
 ```
 
 
