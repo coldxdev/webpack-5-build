@@ -52,8 +52,14 @@ const plugins = () => {
         }),
         new HTMLWebpackPlugin({
             template: paths.src + '/index.html/',
-            favicon: paths.src + '/images/icons/favicon.png',
             filename: 'index.html',
+            minify: {
+                collapseWhitespace: isProd,
+            }
+        },),
+        new HTMLWebpackPlugin({
+            template: paths.src + '/contacts.html/',
+            filename: 'contacts.html',
             minify: {
                 collapseWhitespace: isProd,
             }
