@@ -13,10 +13,10 @@ My build is perfect tool for anyone front-end developer.
 
 ## Features
 
-- ✔️[Webpack 5](https://webpack.js.org/)
-- ✔️[PostCss](https://postcss.org/)  
-- ✔️[Babel](https://babeljs.io/)
-- ✔️[Sass](https://sass-lang.com/)
+- [Webpack 5](https://webpack.js.org/)
+- [PostCss](https://postcss.org/)  
+- [Babel](https://babeljs.io/)
+- [Sass](https://sass-lang.com/)
 
 
 
@@ -28,7 +28,7 @@ My build is perfect tool for anyone front-end developer.
 - [`webpack-cli`](https://github.com/webpack/webpack-cli) - Command line interface for webpack
 - [`webpack-dev-server`](https://github.com/webpack/webpack-dev-server) - Development server for webpack
 - [`webpack-merge`](https://github.com/survivejs/webpack-merge) - Simplify development/production configuration
-- 
+
 ### Babel
 
 - [`@babel/core`](https://www.npmjs.com/package/@babel/core) - Transpile ES6+ to backwards compatible JavaScript
@@ -66,9 +66,7 @@ npm run start
 
 ## Development
 
-Want to contribute? Great!
-
-Open your favorite Terminal and run these commands.
+Open terminal and enter this magic commands.
 
 To generate development build:
 
