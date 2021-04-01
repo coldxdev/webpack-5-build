@@ -68,7 +68,7 @@ npm run start
 
 Open terminal and enter this magic commands.
 
-To generate development build:
+Building development
 
 ```sh
 npm run dev
@@ -81,7 +81,7 @@ npm run start
 ```
 
 
-#### Building for source
+#### Building production
 
 For production release:
 
