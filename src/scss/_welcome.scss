@@ -1,0 +1,67 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #4776E6;
+  background: -webkit-linear-gradient(to left, #8E54E9, #4776E6);
+  background: linear-gradient(to left, #8E54E9, #4776E6);
+
+}
+
+.welcome {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.welcome__title {
+  text-align: center;
+  font-size: 50px;
+  line-height: 50px;
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  padding-top: 250px;
+  margin-bottom: 15px;
+  transition: transform ease .7s;
+}
+
+.welcome__title:hover {
+  transform: translateY(-9px);
+}
+
+.welcome__text {
+  text-align: center;
+  font-size: 21px;
+  color: #fff;
+  font-weight: 300;
+  margin: 0 0 85px;
+  & span{
+    font-weight: bold;
+  }
+}
+
+.welcome__img {
+  animation: 6s linear 0s normal none infinite running welcome__img;
+  -webkit-animation: 6s linear 0s normal none infinite running welcome__img;
+  width: 100px;
+  margin-bottom: 100px;
+}
+
+@keyframes welcome__img {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes welcome__img {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

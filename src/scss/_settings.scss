@@ -17,7 +17,9 @@ body,
 h1,
 h2,
 h3,
-h4,
+h4
+h5,
+h6,
 p,
 ul[class],
 ol[class],
@@ -28,11 +30,11 @@ blockquote,
 dl,
 dd {
   margin: 0;
+  font-size: inherit;
 }
 
 
 body {
-  min-height: 100vh;
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
@@ -43,6 +45,9 @@ ol[class] {
   list-style: none;
 }
 
+a{
+  text-decoration: none;
+}
 
 a:not([class]) {
   text-decoration-skip-ink: auto;
@@ -64,3 +69,10 @@ textarea,
 select {
   font: inherit;
 }
+
+
+.js-focus-visible :focus:not(.focus-visible) {
+  outline: none;
+}
+
+

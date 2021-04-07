@@ -123,9 +123,6 @@ module.exports = {
                 test: /\.css$/i,
                 use: [{
                     loader: MiniCssExtractPlugin.loader,
-                    options: {
-                        hmr: isDev
-                    },
                 },
                     'css-loader'
                 ]
@@ -138,7 +135,9 @@ module.exports = {
                         options: {
                             publicPath: (resourcePath, context) => {
                                 return path.relative(path.dirname(resourcePath), context) + '/';
+
                             },
+
                         }
                     },
                     'css-loader',
@@ -151,7 +150,6 @@ module.exports = {
                                         overrideBrowserslist: ['ie >= 8', 'last 4 version']
                                     })
                                 ],
-                                sourceMap: true
                             }
                         }
                     },
@@ -169,6 +167,10 @@ module.exports = {
                 generator: {
                     filename: filenameImg(),
                 }
+            },
+            {
+                test: /\.svg$/i,
+                type: 'asset',
             },
             {
                 test: /\.woff2$/,
